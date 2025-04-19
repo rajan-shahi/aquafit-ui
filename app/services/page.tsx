@@ -30,7 +30,7 @@ export default function ServicesPage() {
       <PageHeader
         title="Our Services"
         subtitle="Discover our comprehensive range of swimming and gym services"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+      backgroundImage="/website/s4.webp"
       />
 
       <div className="container mx-auto px-4 py-16">
@@ -38,7 +38,7 @@ export default function ServicesPage() {
           <div>
             <div className="relative h-[300px] rounded-xl overflow-hidden shadow-xl mb-8">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/website/s2.webp"
                 alt="Swimming facilities"
                 fill
                 className="object-cover"
@@ -61,7 +61,7 @@ export default function ServicesPage() {
           </div>
           <div>
             <div className="relative h-[300px] rounded-xl overflow-hidden shadow-xl mb-8">
-              <Image src="/placeholder.svg?height=600&width=800" alt="Gym facilities" fill className="object-cover" />
+              <Image src="/website/g2.webp" alt="Gym facilities" fill className="object-cover" />
             </div>
             <h2 className="text-3xl font-bold mb-6 text-blue">Gym</h2>
             <p className="text-gray-700 mb-6">
@@ -119,7 +119,7 @@ export default function ServicesPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=800&width=600"
+               src="/website/s5.webp"
                 alt="Membership benefits"
                 fill
                 className="object-cover"

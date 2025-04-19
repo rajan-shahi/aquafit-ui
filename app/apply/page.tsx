@@ -58,7 +58,7 @@ export default function ApplyPage() {
       <PageHeader
         title="Apply Online"
         subtitle="Join our community of fitness enthusiasts"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/s4.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

@@ -19,7 +19,7 @@ const categories = [
 const galleryImages = [
   {
     id: 1,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s1.webp",
     alt: "Olympic-sized swimming pool",
     category: "facilities",
     title: "Olympic-sized Swimming Pool",
@@ -27,7 +27,7 @@ const galleryImages = [
   },
   {
     id: 2,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/g2.webp",
     alt: "Modern gym equipment",
     category: "fitness",
     title: "Modern Fitness Center",
@@ -35,7 +35,7 @@ const galleryImages = [
   },
   {
     id: 3,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s2.webp",
     alt: "Swimming lesson",
     category: "swimming",
     title: "Professional Swimming Lessons",
@@ -43,7 +43,7 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s4.webp",
     alt: "Group fitness class",
     category: "fitness",
     title: "Group Fitness Classes",
@@ -51,7 +51,7 @@ const galleryImages = [
   },
   {
     id: 5,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s4.webp",
     alt: "Annual swimming competition",
     category: "events",
     title: "Annual Swimming Competition",
@@ -59,7 +59,7 @@ const galleryImages = [
   },
   {
     id: 6,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s5.webp",
     alt: "Aqua aerobics class",
     category: "swimming",
     title: "Aqua Aerobics",
@@ -67,7 +67,7 @@ const galleryImages = [
   },
   {
     id: 7,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/g2.webp",
     alt: "Locker rooms",
     category: "facilities",
     title: "Modern Locker Rooms",
@@ -75,7 +75,7 @@ const galleryImages = [
   },
   {
     id: 8,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s5.webp",
     alt: "Personal training session",
     category: "fitness",
     title: "Personal Training",
@@ -83,7 +83,7 @@ const galleryImages = [
   },
   {
     id: 9,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/g1.webp",
     alt: "Charity swim event",
     category: "events",
     title: "Charity Swim Marathon",
@@ -91,7 +91,7 @@ const galleryImages = [
   },
   {
     id: 10,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s1.webp",
     alt: "Kids swimming class",
     category: "swimming",
     title: "Kids Swimming Program",
@@ -99,7 +99,7 @@ const galleryImages = [
   },
   {
     id: 11,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/s3.webp",
     alt: "Wellness area",
     category: "facilities",
     title: "Wellness Area",
@@ -107,7 +107,7 @@ const galleryImages = [
   },
   {
     id: 12,
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/website/g2.webp",
     alt: "Fitness challenge",
     category: "events",
     title: "Annual Fitness Challenge",
@@ -144,7 +144,7 @@ export default function GalleryPage() {
       <PageHeader
         title="Our Gallery"
         subtitle="Explore our facilities, classes, and events through our photo gallery"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/g3.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

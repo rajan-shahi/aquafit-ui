@@ -11,28 +11,28 @@ export default function Programs() {
       title: "Swimming Programs",
       description:
         "From beginner lessons to advanced techniques, our swimming programs cater to all ages and skill levels.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/website/s3.webp",
       link: "/services",
     },
     {
       title: "Gym Workouts",
       description:
         "Strength training, cardio, and functional fitness programs designed to help you achieve your fitness goals.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/website/g3.webp",
       link: "/services",
     },
     {
       title: "Aqua Fitness",
       description:
         "Low-impact, high-resistance workouts in the water that are perfect for all fitness levels and ages.",
-      image: "/placeholder.svg?height=600&width=800",
+        image: "/website/g1.webp",
       link: "/services",
     },
     {
       title: "Personal Training",
       description:
         "One-on-one sessions with our expert trainers to create a customized fitness plan tailored to your needs.",
-      image: "/placeholder.svg?height=600&width=800",
+        image: "/website/s5.webp",
       link: "/services",
     },
   ]
@@ -59,7 +59,7 @@ export default function Programs() {
         <SectionHeading title="Our Programs" subtitle="What We Offer" center={true} />
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 gap-8"
+          className="grid grid-cols-1 md:grid-cols-4 gap-8"
           variants={container}
           initial="hidden"
           whileInView="show"

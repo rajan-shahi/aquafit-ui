@@ -140,7 +140,7 @@ export default function SchedulePage() {
       <PageHeader
         title="Class Schedule"
         subtitle="Find the perfect class to fit your schedule"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/g2.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

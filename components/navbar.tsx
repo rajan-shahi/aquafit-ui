@@ -137,6 +137,9 @@ export default function Navbar() {
                   <Link href="/gallery" className="text-gray-700 hover:text-blue font-medium">
                     gallery
                   </Link>
+                  <Link href="/blog" className="text-gray-700 hover:text-blue font-medium">
+                  Blogs
+                  </Link>
                   <Link href="/contact" className="text-gray-700 hover:text-blue font-medium">
                     Contact
                   </Link>
@@ -225,6 +228,13 @@ export default function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Gallery
+              </Link>
+              <Link
+                href="/blog"
+                className="block py-2 text-gray-700 hover:text-blue font-medium"
+                onClick={() => setIsMenuOpen(false)}
+              >
+             Blog
               </Link>
               
               <Link

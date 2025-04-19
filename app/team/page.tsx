@@ -193,7 +193,7 @@ export default function TeamPage() {
       <PageHeader
         title="Meet Our Team"
         subtitle="Get to know our expert trainers, coaches, and staff members"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/s5.webp"
       />
 
       <div className="container mx-auto px-4 py-16">

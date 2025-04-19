@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { motion } from "framer-motion"
 
+
 export default function Hero() {
   return (
     <div className="relative pt-32 overflow-hidden bg-gradient-mesh">
@@ -112,7 +113,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.4 }}
             >
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/website/s5.webp"
                 alt="Swimming and gym facilities"
                 fill
                 className="object-cover"

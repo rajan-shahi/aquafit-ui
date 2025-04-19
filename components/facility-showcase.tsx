@@ -12,7 +12,7 @@ const facilities = [
     name: "Olympic-Sized Swimming Pool",
     description:
       "Our state-of-the-art Olympic-sized swimming pool features 8 lanes, professional starting blocks, and is maintained at the perfect temperature year-round.",
-    image: "/placeholder.svg?height=600&width=1200",
+      image: "/website/s4.webp",
     features: ["8 Competition Lanes", "Heated Water", "Professional Starting Blocks", "Spectator Seating"],
   },
   {
@@ -20,7 +20,7 @@ const facilities = [
     name: "Modern Fitness Center",
     description:
       "Equipped with the latest cardio machines, free weights, and strength training equipment to help you achieve your fitness goals.",
-    image: "/placeholder.svg?height=600&width=1200",
+      image: "/website/g3.webp",
     features: ["Latest Equipment", "Free Weights Area", "Cardio Zone", "Functional Training Space"],
   },
   {

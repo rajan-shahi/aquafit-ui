@@ -7,7 +7,7 @@ export default function AboutPage() {
       <PageHeader
         title="About AquaFit"
         subtitle="Learn about our mission, values, and the team behind our success"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/s3.webp"
         primaryButtonText="Our Services"
         primaryButtonLink="/services"
         secondaryButtonText="Meet Our Team"

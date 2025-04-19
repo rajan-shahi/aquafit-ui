@@ -7,7 +7,7 @@ export default function ContactPage() {
       <PageHeader
         title="Contact Us"
         subtitle="Have questions or need more information? We're here to help"
-        backgroundImage="/placeholder.svg?height=800&width=1600"
+        backgroundImage="/website/s2.webp"
       />
 
       <div className="container mx-auto px-4 py-16">
