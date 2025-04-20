@@ -1,18 +1,18 @@
-"use client"
+"use client";
 
-import { useEffect, useState } from "react"
-import { motion, useAnimation, AnimatePresence } from "framer-motion"
-import PageHeaderButtons from "./page-header-buttons"
+import { useEffect, useState } from "react";
+import { motion, useAnimation, AnimatePresence } from "framer-motion";
+import PageHeaderButtons from "./page-header-buttons";
 
 interface PageHeaderProps {
-  title: string
-  subtitle?: string
-  backgroundImage?: string
-  primaryButtonText?: string
-  primaryButtonLink?: string
-  secondaryButtonText?: string
-  secondaryButtonLink?: string
-  showButtons?: boolean
+  title: string;
+  subtitle?: string;
+  backgroundImage?: string;
+  primaryButtonText?: string;
+  primaryButtonLink?: string;
+  secondaryButtonText?: string;
+  secondaryButtonLink?: string;
+  showButtons?: boolean;
 }
 
 export default function PageHeader({
@@ -25,20 +25,20 @@ export default function PageHeader({
   secondaryButtonLink,
   showButtons = true,
 }: PageHeaderProps) {
-  const [isLoaded, setIsLoaded] = useState(false)
-  const controls = useAnimation()
+  const [isLoaded, setIsLoaded] = useState(false);
+  const controls = useAnimation();
 
   useEffect(() => {
-    setIsLoaded(true)
+    setIsLoaded(true);
     controls.start({
       opacity: 1,
       y: 0,
       transition: { duration: 0.8 },
-    })
-  }, [controls])
+    });
+  }, [controls]);
 
   // Split title into words for animated text effect
-  const titleWords = title.split(" ")
+  const titleWords = title.split(" ");
 
   return (
     <div className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
@@ -187,39 +187,6 @@ export default function PageHeader({
             </svg>
           </motion.div>
         ))}
-
-        {/* Right to left swimmers */}
-        {[...Array(3)].map((_, i) => (
-          <motion.div
-            key={`swimmer-rl-${i}`}
-            className="absolute"
-            style={{
-              top: `${35 + i * 30}%`,
-              right: "-100px",
-              opacity: 0.15,
-              transform: "scaleX(-1)",
-            }}
-            animate={{
-              x: ["0vw", "-110vw"],
-            }}
-            transition={{
-              duration: 35 + i * 5,
-              ease: "linear",
-              repeat: Number.POSITIVE_INFINITY,
-              delay: i * 8,
-            }}
-          >
-            <svg width="80" height="30" viewBox="0 0 80 30" fill="white">
-              <path
-                d="M70,15 C65,5 55,10 50,15 C45,20 35,25 25,15 C15,5 5,15 0,20"
-                stroke="white"
-                strokeWidth="3"
-                fill="none"
-              />
-              <circle cx="70" cy="10" r="5" />
-            </svg>
-          </motion.div>
-        ))}
       </div>
 
       {/* Content */}
@@ -304,7 +271,11 @@ export default function PageHeader({
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.7 }}
       >
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" className="w-full h-full">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1440 320"
+          className="w-full h-full"
+        >
           <path
             fill="#ffffff"
             fillOpacity="1"
@@ -313,5 +284,5 @@ export default function PageHeader({
         </svg>
       </motion.div>
     </div>
-  )
+  );
 }

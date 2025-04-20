@@ -114,7 +114,7 @@ export default function Navbar() {
                   >
                     <span className="text-white font-bold text-xl">AF</span>
                   </motion.div>
-                  <span className="text-blue font-bold text-xl">AquaFit</span>
+                  <span className="text-pink font-bold text-xl">AquaFit</span>
                 </Link>
 
                 {/* Desktop Navigation */}

@@ -4,6 +4,7 @@ import { useState } from "react"
 import { motion } from "framer-motion"
 import { Calendar, Clock, User } from "lucide-react"
 import SectionHeading from "./section-heading"
+import Link from "next/link"
 
 const days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
 
@@ -429,7 +430,7 @@ export default function ClassSchedule() {
                   <User className="h-4 w-4 text-gray-500 mr-1" />
                   <span className="text-sm text-gray-700">{cls.instructor}</span>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center pb-5">
                   <span className="text-xs font-medium px-2 py-1 bg-gray-100 text-gray-700 rounded-full">
                     {cls.level}
                   </span>
@@ -438,9 +439,9 @@ export default function ClassSchedule() {
                     <span className="text-gray-500">spots left</span>
                   </div>
                 </div>
-                <button className="w-full mt-4 bg-gradient-to-r from-blue to-pink text-white py-2 rounded-lg font-medium hover:shadow-md transition-shadow">
+                <Link href="/contact" className="w-full mt-4 bg-gradient-to-r from-blue to-pink text-white py-2 px-4  rounded-lg font-medium hover:shadow-md transition-shadow">
                   Book Class
-                </button>
+                </Link>
               </div>
             </motion.div>
           ))}

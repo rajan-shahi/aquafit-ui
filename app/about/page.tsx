@@ -33,7 +33,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
-            <Image src="/placeholder.svg?height=800&width=600" alt="Our facility" fill className="object-cover" />
+            <Image src="/website/s2.webp" alt="Our facility" fill className="object-cover" />
           </div>
         </div>
 

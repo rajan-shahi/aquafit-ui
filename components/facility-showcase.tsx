@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "framer-motion"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import SectionHeading from "./section-heading"
 
+
 const facilities = [
   {
     id: 1,
